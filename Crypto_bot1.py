@@ -11,8 +11,8 @@ from telegram import Update
 
 #All required API
 
-Crypto_API= "9384cde7124d164085755d6178424e6f"
-bot_api= "1907053474:AAGKm4m6DidimhDBqcxdSnNGqCbLzIFw_z8"
+Crypto_API= "Your own api"
+bot_api= "Your own bot api"
 updater = Updater(token=bot_api, use_context=True)
 dispatcher = updater.dispatcher
 
